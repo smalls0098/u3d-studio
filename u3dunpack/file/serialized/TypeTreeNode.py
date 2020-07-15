@@ -1,0 +1,11 @@
+class TypeTreeNode:
+    type: str
+    name: str
+    byteSize: int
+    index: int
+    isArray: int
+    version: int
+    metaFlag: int
+    level: int
+    typeStrOffset: int
+    nameStrOffset: int
